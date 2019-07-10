@@ -43,6 +43,8 @@ class WallFollower:
     def find_wall(self):
     # if lidar data has not been received, do nothing
 
+	#follows right wall
+
 	turnAngle = 0
 	#under ideal conditions, turnAngle is 0
 	
