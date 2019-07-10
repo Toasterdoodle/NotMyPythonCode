@@ -40,6 +40,7 @@ class WallFollower:
         #publishes the command
         self.drive_pub.publish(self.cmd)
 
+    #disclaimer: the variables and comments are backwards
     def find_wall(self):
     # if lidar data has not been received, do nothing
 
